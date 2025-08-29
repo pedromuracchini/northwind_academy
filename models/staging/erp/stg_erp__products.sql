@@ -6,7 +6,7 @@ source_products as (
     select
         cast(id as int) as product_pk
         , cast(productname as string) as product_name
-        , cast(supplierid as int) as supplir_fk
+        , cast(supplierid as int) as supplier_fk
         , cast(categoryid as int) as category_fk
         , cast(quantityperunit as string) as quantity_per_unit
         , cast(unitprice as numeric(18,2)) as unit_price
